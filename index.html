@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Culicagada</title>
+  <link rel="stylesheet" href="./css/index.css" />
+  <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Heart_corazón.svg/1200px-Heart_corazón.svg.png" type="image/x-icon">
+  <style>
+      .body {
+          background-color: black;
+          text-align: center;
+        }
+  </style>
+</head>
+
+<body class="contenedor">
+  <h1 class="contenedor__titulo">❤ ¿En realidad quieres ser mi novia? Carechimba  </h1>
+  <div>
+    <img
+      src="https://i.ytimg.com/vi/xnUJNH07SWo/hqdefault.jpg"
+      alt="Foto d my" class="contenedor__imagen" />
+  </div>
+  <button id="yes" class="contenedor__boton">shi, quiero ser tu tilina</button>
+  <button id="no" class="contenedor__boton">no mlp</button>
+
+  <script>
+      'use strict';
+let votonSi = window.document.getElementById('yes');
+let votonNo = window.document.getElementById('no');
+
+let partner = prompt('Coloque su nombre ahuevada');
+document.querySelector('.contenedor__titulo').innerHTML += partner + ' ❤';
+
+const zomosNobios = () => {
+
+  alert(`Sabia que iba a colocar si, obviamente ${partner} `);
+  alert('Te quiero mucho <3');
+  location.href = "https://www.youtube.com/watch?v=1uFM7DIhkxs&ab_channel=lostochesitos";
+};
+
+const ebitarKCRompaMyBobo = () => {
+  votonNo.style.position = 'absolute';
+  votonNo.style.top = (Math.random() * window.innerHeight) + 'px';
+  votonNo.style.left = (Math.random() * window.innerWidth) + 'px';
+};
+
+votonSi.addEventListener('click', zomosNobios);
+votonNo.addEventListener('mouseover', ebitarKCRompaMyBobo);
+  </script>
+</body>
+
+</html>
